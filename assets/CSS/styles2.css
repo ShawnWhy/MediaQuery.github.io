@@ -1,0 +1,351 @@
+.header{
+    
+    background-color:lightsteelblue;
+    width: 100%;
+    height:5px;
+    ;margin-bottom:20px;
+    
+}
+.navigation{
+    width:100%;
+    height:150px;
+    background-color:white;
+    
+   
+}
+
+
+.my-Name{
+   
+    font-size:20px;
+    width: 100px;
+    background-color:lightsteelblue;
+    float:left;
+    text-align:center;
+    padding:50px 10px 50px 10px;
+    
+    
+    /*border-radius:20px;*/
+}
+
+
+
+.linkContainer{
+    float:right;
+}
+.link{
+    font-size:20px;
+    
+    background-color:white;
+    float:left;
+    text-align:center;
+    padding:50px 10px 50px 10px;
+    font-size:20px;
+    width: 100px;
+    text-align:center;
+    /*border-radius:20px;*/ 
+    color:black;
+    text-decoration:none;
+    
+      
+
+    /*transition-duration:1000ms;
+    transition-property:background-color;
+    transition-timing-function:ease-in;*/
+}
+.link:hover{
+    background-color:lightsteelblue;
+    color:black;
+    
+
+}
+
+    
+
+.Portfolio{
+    float:right;
+   
+}
+.aboutme{
+    float:right;
+}
+.contact{
+    float:right;
+}
+
+.mainContainer{
+    width:90%;
+    height:600px;
+    position:relative;
+    background-color:lightsteelblue;
+    text-align:center;
+    left:5%;
+    
+    
+
+}
+iframe{
+    height:500px;
+    border:3px solid lightgray;
+    background-color:ghostwhite;
+    margin:10px;
+    text-align:center;
+    width: 90%;
+   
+    
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    
+    text-align: center;
+
+    
+}
+
+.portfolio-containter{
+    text-align:center;
+    font-size:40px;
+    font-family:sans-serif;
+    margin:auto;
+    
+}
+   
+.portfolio-block{
+    float:left;
+    font-size:11px;
+    border:2px solid lightsteelblue;
+   
+    width:103px;
+    height:103px;
+    margin: 2%;
+    margin-top:50px;
+    overflow:hidden;
+
+}
+.portfolio-title{
+    position:relative;
+    z-index:2;
+    background-color:lightsteelblue;
+    top:30px;
+    text-align:center;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    
+    
+
+}
+.portfolio-image{
+    position:relative;
+    right:2px;
+    bottom:19px;
+    z-index:1;
+    padding:3px;
+}
+
+
+
+
+
+
+
+.message-input{
+    height:100px;
+    width:100%;
+}
+
+.submit-button{
+    margin:4px;
+    padding:3px;
+    background-color:lightsteelblue;
+    
+
+}
+
+.email-input{
+    width:100%;
+    margin-top:3px;
+    
+}
+.name-input{
+    width:100%;
+    margin-top:3px;
+    
+}
+
+.portrait{
+    padding:2px;
+    border:3px solid lightskyblue;
+    margin:2px;
+}
+
+#biography{
+    font-size:20px;
+
+}
+
+.authors{
+    font-size:15px;
+    border: 1px solid lightsteelblue;
+    padding:5px;
+    margin:auto;
+    position:relative;
+    width:50%;
+    
+
+}
+.book-element{
+    padding:5px;
+    margin:5px;
+    text-align:left;
+    border:1px solid grey;
+    
+}
+/*.shrinktest{
+    border:5px solid black;
+
+}
+
+.shrinktest:hover{
+    transform:scale(1.5);
+
+}*/
+
+@media only screen and (min-width: 980px){
+   
+}
+
+
+
+@media only screen and (max-width:768px){
+   
+    
+
+
+
+    .navigation{ text-align:center;width:100%;}
+    .linkcontainer{
+        text-align:center;
+        width:100%;
+        
+    }
+    .link{
+        font-size:14px;
+        height:20px;
+        padding:3px;
+        text-align:center;
+        position:relative;
+        right:30%;
+        
+        
+    }
+    
+    .my-name{
+        position:relative;
+        width:100%;
+        padding:0;
+    }
+    .portfolio{
+        text-align:center;
+    }
+    .aboutme{
+        text-align:center;
+    }
+    .contact{
+        text-align:center;
+    }
+    .header{
+        margin-bottom:2%;
+    }
+    .navigation{
+        text-align:center;
+        height:50px;
+        clear:both;
+    }
+    .written-bio{
+        font-size:14px;
+    }
+    .book-title{
+        clear:both;
+    }
+    
+    .authors{
+        width:90%;
+    
+    }
+    }
+    
+
+
+
+@media only screen and (max-width: 640px)
+
+
+
+{
+
+
+.navigation{ text-align:center;width:100%;}
+.linkcontainer{
+    text-align:center;
+    width:100%;
+    
+}
+.link{
+    font-size:14px;
+    height:20px;
+    padding:3px;
+    text-align:center;
+    position:relative;
+    right:17%;
+    
+    
+}
+
+.my-name{
+    position:relative;
+    width:100%;
+    padding:0;
+}
+.portfolio{
+    text-align:center;
+}
+.aboutme{
+    text-align:center;
+}
+.contact{
+    text-align:center;
+}
+.header{
+    margin-bottom:2%;
+}
+.navigation{
+    text-align:center;
+    height:50px;
+    clear:both;
+}
+.written-bio{
+    font-size:14px;
+}
+.book-title{
+    clear:both;
+}
+
+.authors{
+    width:90%;
+
+}
+}
+
+
+
+
+
+
+   
